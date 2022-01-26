@@ -9,7 +9,7 @@ function Header() {
         <ul>
           <li>
             <img src={user} alt="" />
-            <p>ThanhNam</p>
+            <p>HuynhPhong</p>
           </li>
           <li>
             <p>Log Out</p>
