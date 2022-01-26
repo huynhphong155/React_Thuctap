@@ -28,6 +28,16 @@ function TableUI({
         </tr>
       </thead>
       <tbody>
+        {!isNonEmptyArray(listBody) && (
+          <tr>
+            <td
+              colSpan={isDetail ? listHeader.length + 1 : listHeader.length}
+              style={{ textAlign: "center", color: "#ED2025" }}
+            >
+              Hiện tại không có khoản nào cần thanh toán.
+            </td>
+          </tr>
+        )}
         {isNonEmptyArray(listBody) &&
           listBody.map((ele: any, index: number) => {
             return (
