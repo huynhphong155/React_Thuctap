@@ -1,7 +1,7 @@
 import React from "react";
 import RenderUI from "../../HOC/RenderUI";
 
-function Billing() {
+function tracuu() {
   return (
     <RenderUI>
       <div>
@@ -11,4 +11,4 @@ function Billing() {
   );
 }
 
-export default Billing;
+export default tracuu;

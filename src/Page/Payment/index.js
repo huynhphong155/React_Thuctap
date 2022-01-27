@@ -1,7 +1,7 @@
 import React from "react";
 import RenderUI from "../../HOC/RenderUI";
 
-function Payment() {
+function thanhtoan() {
   return (
     <RenderUI>
       <div>
@@ -11,4 +11,4 @@ function Payment() {
   );
 }
 
-export default Payment;
+export default thanhtoan;
