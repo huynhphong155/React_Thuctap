@@ -3,8 +3,14 @@ const ListPaymentOrder = {
     {
       autoId: 1,
       CodeBill: 5600,
-      Des: "Thu học phí học kỳ 1",
-      Price: "5.900.000",
+      Des: "...",
+      Price: "...",
+    },
+    {
+      autoId: 2,
+      CodeBill: 5700,
+      Des: "...",
+      Price: "...",
     },
   ],
 };

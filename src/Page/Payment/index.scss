@@ -1,0 +1,59 @@
+.Payment {
+  &-title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+  }
+  &-des {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 25px;
+  }
+  &-top {
+    margin-bottom: 32px;
+    h3 {
+      font-size: 18px;
+      color: #cc5c00;
+      margin-bottom: 24px;
+    }
+    &__wrapper {
+      display: flex;
+      margin: 0 -20px;
+      > div {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        label {
+          margin-left: 10px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &-submit {
+    margin-top: 30px;
+    text-align: center;
+    button {
+      padding: 15px 28px;
+      background: #ff7506;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: 900;
+      border: none;
+      cursor: pointer;
+      &:disabled {
+        background: #c9c4c0;
+      }
+    }
+  }
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
+    padding: 32px 65px;
+    background: #ffffff;
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 16px;
+  }
+}
