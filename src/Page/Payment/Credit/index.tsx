@@ -1,6 +1,8 @@
 import React from "react";
 import MASTERCARD from "../../../assets/MASTERCARD.svg";
 import VISA from "../../../assets/VISA.svg";
+import jcbn from "../../../assets/jcbn.svg";
+import atmndn from "../../../assets/atmndn.svg";
 import InfoPayment from "../InfoPayment";
 import "./index.scss";
 
@@ -21,6 +23,15 @@ const dataListBank = [
   {
     key: "MAS",
     img: MASTERCARD,
+  },
+  {
+    key: "jcbn",
+    img: jcbn,
+  },
+
+  {
+    key: "atmndn",
+    img: atmndn,
   },
 ];
 

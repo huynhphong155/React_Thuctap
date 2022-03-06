@@ -56,6 +56,9 @@ function OnePay({ setKeyBank, keyBank }: OnePayProps) {
       <div className="OnePay-icon">
         <img src={iconOnePay} alt="" />
       </div>
+      <header>
+        <h1>Thanh toán Onepay</h1>
+      </header>
       <InfoPayment />
       <div className="OnePay-des">
         <p>

@@ -7,15 +7,15 @@ function InfoPayment() {
       <ul>
         <li>
           <p>Đơn vị thụ hưởng:</p>
-          <span>...</span>
+          <span>CLOUD CAMPUS</span>
         </li>
         <li>
           <p>Nội dung thanh toán:</p>
-          <span>...</span>
+          <span>Thanh toán tiền học phí học kỳ 1</span>
         </li>
         <li>
           <p>Số tiền:</p>
-          <span>... VNĐ</span>
+          <span>8.650.000 VNĐ</span>
         </li>
       </ul>
     </div>

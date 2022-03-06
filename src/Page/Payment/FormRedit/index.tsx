@@ -34,6 +34,26 @@ export function FormCredit({
         <div className="FormCredit-left">
           <div className="mb-24">
             <FastField
+              name="Bank"
+              label="Tên ngân hàng:"
+              component={UiInputField}
+              type="tel"
+              isBorderRadius={false}
+              autoComplete="cc-csc"
+            />
+          </div>
+          <div className="mb-24">
+            <FastField
+              name="Address"
+              label="Chi nhánh:"
+              component={UiInputField}
+              type="tel"
+              isBorderRadius={false}
+              autoComplete="cc-csc"
+            />
+          </div>
+          <div className="mb-24">
+            <FastField
               name="Card"
               label="Số thẻ:"
               component={UiInputField}
@@ -44,7 +64,7 @@ export function FormCredit({
           </div>
           <div className="mb-24">
             <FastField
-              name="FullName"
+              name="Name Card"
               label="Tên in trên thẻ:"
               component={UiInputField}
               type="tel"
@@ -56,8 +76,8 @@ export function FormCredit({
         <div className="FormCredit-right">
           <div className="mb-24">
             <FastField
-              name="ExpirationDate"
-              label="Ngày hết hạn:"
+              name="SĐT"
+              label="SĐT Chủ Thẻ:"
               component={UiInputField}
               type="tel"
               isBorderRadius={false}
@@ -67,8 +87,19 @@ export function FormCredit({
 
           <div className="mb-24">
             <FastField
-              name="CVC"
-              label="Mã bảo mật:"
+              name="CMND"
+              label="Số CMND:"
+              component={UiInputField}
+              type="tel"
+              isBorderRadius={false}
+              autoComplete="cc-csc"
+            />
+          </div>
+
+          <div className="mb-24">
+            <FastField
+              name="Date"
+              label="Ngày phát hành:"
               component={UiInputField}
               type="tel"
               isBorderRadius={false}
